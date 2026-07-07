@@ -1,1 +1,30 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+}
 
+header {
+    background: #222;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header a {
+    color: white;
+    margin-right: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+}
+
+aside {
+    padding: 1rem;
+    border-right: 1px solid #ddd;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+}
