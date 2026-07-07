@@ -1,3 +1,4 @@
 title: blog sb7R
 description: Thoughts on software architecture
 markdown: kramdown
+permalink: /:title/
